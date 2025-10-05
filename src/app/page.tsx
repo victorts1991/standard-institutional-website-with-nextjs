@@ -3,6 +3,7 @@ import Image from "next/image"
 import Header from '../components/Header'
 import Metrics from '../components/Metrics'
 import OpenPositions from "../components/OpenPositions";
+import PositionsList from "@/components/PositionsList";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <Metrics />
       <OpenPositions />
+      <PositionsList />
     </main>
   );
 }
