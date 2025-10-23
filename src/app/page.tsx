@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Metrics from '../components/Metrics'
 import OpenPositions from "../components/OpenPositions";
 import PositionsList from "@/components/PositionsList";
+import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Metrics />
       <OpenPositions />
       <PositionsList />
+      <Testimonial />
     </main>
   );
 }
