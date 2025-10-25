@@ -5,6 +5,7 @@ import Metrics from '../components/Metrics'
 import OpenPositions from "../components/OpenPositions";
 import PositionsList from "@/components/PositionsList";
 import Testimonial from "@/components/Testimonial";
+import OpportunityCTA from "@/components/OpportunityCTA";
 
 export default function Home() {
   return (
@@ -14,6 +15,9 @@ export default function Home() {
       <OpenPositions />
       <PositionsList />
       <Testimonial />
+      <div className="bg-white py-10"></div>
+      <OpportunityCTA />
+      <div className="bg-white py-10"></div>
     </main>
   );
 }
