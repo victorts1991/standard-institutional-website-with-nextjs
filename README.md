@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✨ OptimusTech - Site Institucional Simulado (Frontend Portfolio)
 
-## Getting Started
+![Badge - Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Badge - TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Badge - Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Badge - Component Architecture](https://img.shields.io/badge/Component_Architecture-Modular-green?style=for-the-badge)
 
-First, run the development server:
+Este projeto é um site institucional moderno desenvolvido como peça de portfólio. Simula uma página inicial robusta, focada em métricas, vagas abertas e depoimentos, demonstrando proficiência em **desenvolvimento Frontend com foco em arquitetura, experiência do usuário (UX) e design responsivo**.
+
+## 🚀 Demonstração (GIF de Uso)
+
+<img src="[COLOQUE O LINK DO SEU GIF DE DEMONSTRAÇÃO AQUI]" alt="Demonstração do site OptimusTech, mostrando o layout e a responsividade." width="100%">
+
+O GIF acima demonstra a fluidez da navegação, a organização visual do conteúdo e, crucialmente, a **adaptação total para dispositivos móveis**.
+
+---
+
+## 🛠️ Stack Tecnológica
+
+O projeto foi construído com as mais recentes tecnologias do ecossistema React, garantindo alta performance, escalabilidade e uma excelente experiência de desenvolvimento:
+
+* **Next.js 15+:** Framework React para otimizações de performance, roteamento e estrutura de aplicação.
+* **TypeScript:** Adiciona tipagem estática, aumentando a manutenibilidade e ajudando na prevenção de erros em tempo de desenvolvimento.
+* **Tailwind CSS:** Framework *utility-first* para estilização rápida, responsiva e altamente customizável.
+* **React 19+:** Biblioteca para construção da interface do usuário baseada em componentes.
+
+---
+
+## 💡 Arquitetura e Estrutura de Componentes
+
+Um dos pilares deste projeto é a arquitetura de componentes, que garante reutilização e organização do código. A separação clara de responsabilidades em módulos aumenta a manutenibilidade do código.
+
+| Componente | Objetivo Principal | Destaque Técnico (Foco B) |
+| :--- | :--- | :--- |
+| **`src/app/page.tsx`** | Orquestrador principal da Home. | Demonstra a composição de módulos em uma única página. |
+| **`src/components/Metrics`** | Exibe dados em destaque. | Uso de `md:flex-row` para **layout responsivo** (mobile empilhado, desktop lado a lado). |
+| **`src/components/PositionsList`** | Lista as vagas por categoria. | Componentização de **cartões de vaga** (`PositionItem`) para reutilização. |
+| **`src/components/Navbar`** | Barra de navegação. | Implementação de **menu *off-canvas* (hambúrguer)** com estado (`useState`) para mobile. |
+| **Design (Foco A)** | Estilização Geral | Uso de classes utilitárias do Tailwind, como **`max-w-7xl mx-auto`** para layout centralizado e `hover:shadow-md` para interações suaves. |
+
+---
+
+## 🌟 Funcionalidades Chave (Foco C)
+
+Embora focado em tecnologia, o site oferece uma experiência de usuário rica, simulando as funcionalidades essenciais de um site institucional de sucesso:
+
+* **Métricas Visuais:** Destaque para conquistas da empresa (`400+ Projetos concluídos`, `20k Downloads`).
+* **Vagas Segmentadas:** Listagem de oportunidades organizada por áreas (`Design` e `Desenvolvimento de Software`) com salários em destaque.
+* **Testemunho:** Seção de *Social Proof* para aumentar a credibilidade.
+* **Responsividade Impecável:** Layout totalmente adaptável para qualquer tamanho de tela, garantindo a acessibilidade e a experiência do usuário.
+
+---
+
+## ⚙️ Como Rodar Localmente
+
+Para clonar e executar este projeto em sua máquina, siga os passos abaixo.
+
+### Pré-requisitos
+
+Você precisará ter o [Node.js](https://nodejs.org/en/) (versão LTS recomendada) instalado.
+
+### Instalação
 
 ```bash
+# 1. Clone o repositório
+git clone [URL_DO_SEU_REPOSITORIO]
+cd standard-institutional-website-with-nextjs
+
+# 2. Instale as dependências
+npm install
+# ou
+yarn install
+
+# 3. Inicie o servidor de desenvolvimento
 npm run dev
-# or
+# ou
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+O projeto estará acessível em http://localhost:3000.
