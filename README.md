@@ -12,6 +12,7 @@ Este projeto é um site institucional moderno desenvolvido como peça de portfó
 <img src="./demonstracao.gif" alt="Demonstração do site OptimusTech, mostrando o layout e a responsividade." width="100%">
 
 O GIF acima demonstra a fluidez da navegação, a organização visual do conteúdo e, crucialmente, a **adaptação total para dispositivos móveis**.
+O mesmo está com baixa resolução e um pouco lento por conta de que foi necessário reduzir o tamanho em MB para que fosse aceito o seu upload aqui no Github.
 
 ---
 
