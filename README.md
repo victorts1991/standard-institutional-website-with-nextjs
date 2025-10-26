@@ -9,7 +9,7 @@ Este projeto é um site institucional moderno desenvolvido como peça de portfó
 
 ## 🚀 Demonstração (GIF de Uso)
 
-<img src="[COLOQUE O LINK DO SEU GIF DE DEMONSTRAÇÃO AQUI]" alt="Demonstração do site OptimusTech, mostrando o layout e a responsividade." width="100%">
+<img src="./demonstracao.gif" alt="Demonstração do site OptimusTech, mostrando o layout e a responsividade." width="100%">
 
 O GIF acima demonstra a fluidez da navegação, a organização visual do conteúdo e, crucialmente, a **adaptação total para dispositivos móveis**.
 
@@ -26,31 +26,6 @@ O projeto foi construído com as mais recentes tecnologias do ecossistema React,
 
 ---
 
-## 💡 Arquitetura e Estrutura de Componentes
-
-Um dos pilares deste projeto é a arquitetura de componentes, que garante reutilização e organização do código. A separação clara de responsabilidades em módulos aumenta a manutenibilidade do código.
-
-| Componente | Objetivo Principal | Destaque Técnico (Foco B) |
-| :--- | :--- | :--- |
-| **`src/app/page.tsx`** | Orquestrador principal da Home. | Demonstra a composição de módulos em uma única página. |
-| **`src/components/Metrics`** | Exibe dados em destaque. | Uso de `md:flex-row` para **layout responsivo** (mobile empilhado, desktop lado a lado). |
-| **`src/components/PositionsList`** | Lista as vagas por categoria. | Componentização de **cartões de vaga** (`PositionItem`) para reutilização. |
-| **`src/components/Navbar`** | Barra de navegação. | Implementação de **menu *off-canvas* (hambúrguer)** com estado (`useState`) para mobile. |
-| **Design (Foco A)** | Estilização Geral | Uso de classes utilitárias do Tailwind, como **`max-w-7xl mx-auto`** para layout centralizado e `hover:shadow-md` para interações suaves. |
-
----
-
-## 🌟 Funcionalidades Chave (Foco C)
-
-Embora focado em tecnologia, o site oferece uma experiência de usuário rica, simulando as funcionalidades essenciais de um site institucional de sucesso:
-
-* **Métricas Visuais:** Destaque para conquistas da empresa (`400+ Projetos concluídos`, `20k Downloads`).
-* **Vagas Segmentadas:** Listagem de oportunidades organizada por áreas (`Design` e `Desenvolvimento de Software`) com salários em destaque.
-* **Testemunho:** Seção de *Social Proof* para aumentar a credibilidade.
-* **Responsividade Impecável:** Layout totalmente adaptável para qualquer tamanho de tela, garantindo a acessibilidade e a experiência do usuário.
-
----
-
 ## ⚙️ Como Rodar Localmente
 
 Para clonar e executar este projeto em sua máquina, siga os passos abaixo.
@@ -63,7 +38,7 @@ Você precisará ter o [Node.js](https://nodejs.org/en/) (versão LTS recomendad
 
 ```bash
 # 1. Clone o repositório
-git clone [URL_DO_SEU_REPOSITORIO]
+git clone https://github.com/victorts1991/standard-institutional-website-with-nextjs.git
 cd standard-institutional-website-with-nextjs
 
 # 2. Instale as dependências
